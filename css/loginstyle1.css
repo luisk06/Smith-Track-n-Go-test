@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+#load-div{
+	width:100%;
+	}
+#load-table{
+	width:100%;
+	border-spacing:10px 10px}
+.btn-class {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	display:block;
+	width: 100%;
+	border-radius: 7px;
+	background: #ff4a20;
+	text-decoration:none;
+	border: none;
+	color: #FFFFFF;
+	margin-top: -5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	outline: none;
+	font-size: 24px;
+	border-bottom: 3px solid #bc0000;
+	cursor: pointer;
+}
+.btn-class2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	display:block;
+	width: 100%;
+	border-radius: 7px;
+	background: #ff4a20;
+	text-decoration:none;
+	border: none;
+	color: #FFFFFF;
+	margin-top: -5px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	outline: none;
+	font-size: 16px;
+	border-bottom: 3px solid #bc0000;
+	cursor: pointer;
+}
+
+.btn-class3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	display:block;
+	width: 100%;
+	border-radius: 7px;
+	background: #ff4a20;
+	text-decoration:none;
+	border: none;
+	color: #FFFFFF;
+	margin-top: -5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	outline: none;
+	font-size: 16px;
+	border-bottom: 3px solid #bc0000;
+	cursor: pointer;
+}
+.btn-class4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
+	display:block;
+	width: 100%;
+	border-radius: 7px;
+	background: #ff4a20;
+	text-decoration:none;
+	border: none;
+	color: #FFFFFF;
+	margin-top: -5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	outline: none;
+	font-size: 16px;
+	border-bottom: 3px solid #bc0000;
+	cursor: pointer;
+}
+.inputstyle{
+	}
+.inputstyle input {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:20px;
+	border: none;
+	background: #d8d8d8;
+    font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 24px) ;
+	margin: auto;
+	padding: 6px 12px 6px 12px;
+	border-radius:7px;
+}
+
+.inputstyle label {
+	font-family:'Source Sans Pro', sans-serif;
+	}
+
+	
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size:20px;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 500;
+ font-size:20px;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  opacity: 1;
+  font-weight: 500;
+  font-size:20px;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size:20px;
+}
+
+.btn-class-send {
+    font-family: "Yanone Kaffeesatz";
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #ED1A3B none repeat scroll 0% 0%;
+    text-decoration: none;
+    border-width: medium medium 3px;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    margin-top: -5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: medium none;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+	font-weight: 500 !important;
+}
+.btn-class-clear {
+    font-family: "Yanone Kaffeesatz";
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #5f5f5f none repeat scroll 0% 0%;
+    text-decoration: none;
+    border-width: medium medium 3px;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    margin-top: -5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: medium none;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+	font-weight: 500 !important;
+}
+.btn-class-send2 {
+    font-family: "Yanone Kaffeesatz";
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #ED1A3B none repeat scroll 0% 0%;
+    text-decoration: none;
+    border-width: medium medium 3px;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    margin-top: -5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: medium none;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+	font-weight: 500 !important;
+}
+.btn-class-send3 {
+    font-family: "Yanone Kaffeesatz";
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #ED1A3B none repeat scroll 0% 0%;
+    text-decoration: none;
+    border-width: medium medium 3px;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    margin-top: -5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: medium none;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+	font-weight: 500 !important;
+}
+.btn-class-clear3 {
+    font-family: "Yanone Kaffeesatz";
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #5f5f5f none repeat scroll 0% 0%;
+    text-decoration: none;
+    border-width: medium medium 3px;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: #FFF;
+    margin-top: -5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: medium none;
+    font-size: 14px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-shadow: none;
+	font-weight: 500 !important;
+}
+/*------------------------------------------------------------------------- */
+/*-------------------------20151026 previously on document---------------------------------- */
+/*------------------------------------------------------------------------- */
+@font-face {
+						font-family: myFirstFont;
+						src: url(sansation_light.woff);
+					}
+				#wrapper {
+					padding:10px;
+					}
+				#lol{
+				overflow-y:scroll;
+				height:300px;
+				}
+				.pdriver{
+					margin-top:2px;
+					margin-bottom:2px;
+					background:#DDDDDD;
+					float:right;
+					}
+				.pmanager{
+					margin-top:2px;
+					margin-bottom:2px;
+					float:left;
+					}
+				#bol_image{
+					/*margin-bottom:15px;*/
+					overflow:hidden;
+					}
+				#lol_item{
+					width:100%;
+					}
+				#lol_item_inactive{
+					width:100%;
+					}
+				#lol_item h3{
+					margin-top:2px;
+					margin-bottom:2px
+					}
+				#lol_item_inactive h3{
+					margin-top:2px;
+					margin-bottom:2px
+					}
+				#page2 h3, #page3 h3, #page5 h3{
+					margin-top:2px;
+					margin-bottom:2px
+					}
+				
+				table#lol_item_inactive tr:nth-child(even) {
+					background-color: #eee;
+				}
+				table#lol_item_inactive tr:nth-child(odd) {
+				    background-color:#fff;
+				}
+				table#lol_item tr:nth-child(even) {
+					background-color: #eee;
+				}
+				table#lol_item tr:nth-child(odd) {
+				    background-color:#fff;
+				}
+				table#lol_item td, table#lol_item_inactive td{
+					 width:50%;
+					}
+				#back_from_message{
+				width:20%; 
+				margin-left:5px;
+				}
+				
+				#page3, #page5, #page6{
+					min-height: 50px
+					/*background-image:url(css/1633.jpeg);*/
+					height:100vh;
+					}
+				#page3_tr, #page5_tr{
+					
+					background-image:url(http://www.leanstaffing.com/tkgo_files/1697.jpg);
+					background-size:100% auto;
+					
+					
+				}
+				
+				#page3_tr_bk, #page5_tr_bk{
+					background-color: rgba(255,255,255,0.75);
+					}
+					
+			    #signature_bg, #signature_bg2{
+					/*padding-top:5%;
+					margin-bottom:5%;
+					margin-left:5%;
+					margin-right:5%;*/
+					/*background-position: -15px 100px;*/
+					}
+				
+				#signatureparent2, #signatureparent{
+/*					height:500px;
+*/					background-color: rgba(0,0,0, 0.1);
+					}
+				#signature_button, #signature_button2, #comment_button{
+					background-color:#ED1A3B;
+					
+						}
+				#loading_signature, #loading_signature2, #loading_comment_hand{
+					background-color:#ED1A3B;
+					}
+				#bol{
+					text-decoration:none;
+					color:#000000;
+					}
+				#bol, #bol1, #bol2, #bol3, #bol4, #header_signature_1, #header_signature_2, #header_comment, #header_message, #header_load{
+				text-decoration:none;
+				color:#626262
+				}
+
+				#please_shipper, #please_consignee, #please_comment{
+					text-align: center;
+					background-color:#626262;
+					color:#FFF;
+					text-shadow:none;
+					letter-spacing:1px;
+				    font: italic bold 18px 'Yanone Kaffeesatz'; 
+					}
+				#sig_table_1{
+					width:40%;
+					margin-left:30%
+					}
+				#sig_table_1 td, #sig_table_2 td, #comment_table td{
+					text-align:center
+					}
+					
+				#sig_table_2, #comment_table{
+					width:90%;
+					margin-left:5%
+					}
+				#clear_section{
+					display:inline-block;
+					width:50%;
+					float:left
+					}
+				#send_section{
+					display:inline-block;
+					width:50%;
+					float:right
+					}
+			   #troubles_msg{
+					outline: medium none;
+					height: 80px;
+					min-height:80px;
+					width: 98%;
+					border: medium none;
+					margin-top: 3px;
+			   }
+			   #msg_hid{
+				   display:inline-block;
+				   border: 2px solid rgb(237, 26, 59);
+				   width: 99.5%;
+				   margin-top: -6px;
+				   margin-bottom: 5px;
+				   }
+			   #custom_div{
+				   display:inline-block;
+				   width:40%;
+				   float:left
+				   }
+				#troubles_div{
+				   display:inline-block;
+				   width:55%;
+				   float:right;
+				   margin-right:8px;
+				   }
+				 #custom{
+					 display:inline-block;
+					 width:50%;
+					 float:left
+					 }
+				 #template{
+					  display:inline-block;
+				   width:50%;
+				   float:right
+				   }
+				   #choose_section{
+					   width: 100%;
+					   display:inline-block;
+					   padding-top: 5px;
+					   background-color: #5f5f5f;
+					   margin-top: -7px;
+					   padding-right: 2px;
+					}
+				  #notification_message{
+					width:100%;
+					height: 130px;
+					overflow-y: scroll;
+					border: 1px solid #ccc;  
+					display:inline-block;
+				  }
+				  
+				  #loading_message{
+					  height: 49px;
+					  margin-top: -5px;
+					  background-color:#ED1A3B;
+					  }
+				  #buttons_section{
+					   display:inline-block;
+					  width: 100%;
+					  padding-right: 2px;
+					  background-color: rgb(237, 26, 59);
+					  padding-top: 5px;
+					  margin-top: -5px;  
+					  }
+
+/*MEDIA QUERIES*/
+
